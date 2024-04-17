@@ -18,7 +18,7 @@ export class LandingPageComponent {
       title: "Kordzi",
       description: "Kordzi is product created by Devnest provides a full paperless hospital management system which is designed to enhance the workflow of your hospital regardless of its size.",
       techStack: ["Kotlin", "Android", "Android Studio", "Google Maps API", "Firebase"],
-      ghLink: "https://github.com/SeanTheJedi/rent_buddy"
+      ghLink: "https://kordzi.com/"
     },
     {
       title: "Weather App",
