@@ -22,3 +22,34 @@
 .hero-section {
     height: 90vh;
 }
+
+.hero-btn-link {
+    color: #000;
+    font-size: 1rem;
+    padding: 12px 24px 14px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 0 0 #EFEFEF, 4px 4px 0 0 #000;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.hero-btn-link:hover {
+    box-shadow: 3px 3px 0 0 #EFEFEF, 6px 6px 0 0 #000;
+    transform: translate(-2px, 2px);
+}
+
+.project-card {
+    border: 2px solid #000;
+    box-shadow: 2px 2px 0 0 #EFEFEF, 4px 4px 0 0 #000;
+    height: 280px;
+    transition-duration: 200ms;
+}
+
+.project-card:hover {
+    box-shadow: 3px 3px 0 0 #EFEFEF, 6px 6px 0 0 #000;
+    transform: translate(-2px, 2px);
+}
+
+.pointer {
+    cursor: pointer;
+}
