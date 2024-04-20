@@ -41,7 +41,7 @@
 .project-card {
     border: 2px solid #000;
     box-shadow: 2px 2px 0 0 #EFEFEF, 4px 4px 0 0 #000;
-    height: 280px;
+    min-height: 280px;
     transition-duration: 200ms;
 }
 
@@ -52,4 +52,40 @@
 
 .pointer {
     cursor: pointer;
+}
+
+.an-me-pic {
+    width: 60%;
+    height: 300px;
+    object-fit: fill;
+    padding:  5px;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 0 0 #EFEFEF, 6px 6px 0 0 #000;
+}
+
+@media screen and (max-width: 576px) {
+    .intro-display {
+        font-size: 2rem
+    }
+    .intro-display-sub {
+        font-size: 1.6rem
+    }
+    .intro-small-m {
+        width: 100% !important;
+    }
+    .an-me-pic-m {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .intro-small-m {
+        width: 75% !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .intro-small-m {
+        width: 50% !important;
+    }
 }

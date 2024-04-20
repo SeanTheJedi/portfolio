@@ -60,4 +60,12 @@ export class LandingPageComponent {
 
   ]
 
+  jumpToProjects() {
+    document.getElementById('projects')?.scrollIntoView({behavior: 'smooth'})
+  }
+
+  viewResume() {
+    window.open('assets/Richmond_Gyimah(Resume).pdf', '_blank')
+  }
+
 }

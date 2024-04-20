@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   isMenuCollapsed = true;
+
+  jump(section:any) {
+    this.isMenuCollapsed = true
+    document.getElementById(section)?.scrollIntoView({behavior: 'smooth'})
+  }
 }

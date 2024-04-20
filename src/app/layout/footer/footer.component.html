@@ -1,0 +1,24 @@
+<div class="container-fluid bg-dark">
+    <div class="container text-white text-center py-5">
+        <h4>Richmond Gyimah</h4>
+        <p class="space-mono-regular">Designed & Built by Richmond Gyimah</p>
+        <ul class="nav justify-content-center text-decoration-none space-mono-regular">
+            <li class="nav-item active">
+                <!-- Step 4: Close the menu when a link is clicked. -->
+                <a class="nav-link text-white" [routerLink]="'.'" (click)="jump('about')" >
+                    About
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" [routerLink]="'.'" (click)="jump('projects')">
+                    Projects
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" target="_blank" href="assets/Richmond_Gyimah(Resume).pdf">
+                    Resume
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

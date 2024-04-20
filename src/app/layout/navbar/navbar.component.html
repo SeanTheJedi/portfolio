@@ -9,19 +9,24 @@
             <!-- Step 2: Add the ngbCollapse directive to the element below. -->
             <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav space-mono-regular">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <!-- Step 4: Close the menu when a link is clicked. -->
-                        <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">About</a>
+                        <a class="nav-link" routerLink=""  (click)="jump('about')">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Projects</a>
+                        <a class="nav-link" routerLink="" (click)="jump('projects')">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Resume</a>
+                        <a class="nav-link" target="_blank" href="assets/Richmond_Gyimah(Resume).pdf">
+                            Resume
+                        </a>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button class="hero-btn space-mono-regular" type="submit">Say hi!</button>
+                    <a href="mailto:richmondgyimah5@gmail.com"
+                     class="hero-btn space-mono-regular text-decoration-none text-reset">
+                        Say hi!
+                    </a>
                 </form>
             </div>
         </div>
